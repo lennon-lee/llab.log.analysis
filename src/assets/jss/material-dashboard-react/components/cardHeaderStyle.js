@@ -4,6 +4,7 @@ import {
   dangerCardHeader,
   infoCardHeader,
   primaryCardHeader,
+  darkGrayCardHeader,
   roseCardHeader,
   whiteColor
 } from "assets/jss/material-dashboard-react.js";
@@ -15,7 +16,7 @@ const cardHeaderStyle = {
     borderBottom: "none",
     background: "transparent",
     zIndex: "3 !important",
-    "&$cardHeaderPlain,&$cardHeaderIcon,&$cardHeaderStats,&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader": {
+    "&$cardHeaderPlain,&$cardHeaderIcon,&$cardHeaderStats,&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$darkGrayCardHeader,&$roseCardHeader": {
       margin: "0 15px",
       padding: "0",
       position: "relative",
@@ -24,7 +25,7 @@ const cardHeaderStyle = {
     "&:first-child": {
       borderRadius: "calc(.25rem - 1px) calc(.25rem - 1px) 0 0"
     },
-    "&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader": {
+    "&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$darkGrayCardHeader,&$roseCardHeader": {
       "&:not($cardHeaderIcon)": {
         borderRadius: "3px",
         marginTop: "-20px",
@@ -65,7 +66,7 @@ const cardHeaderStyle = {
     }
   },
   cardHeaderIcon: {
-    "&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader": {
+    "&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$darkGrayCardHeader,&$roseCardHeader": {
       background: "transparent",
       boxShadow: "none"
     },
@@ -111,6 +112,12 @@ const cardHeaderStyle = {
     color: whiteColor,
     "&:not($cardHeaderIcon)": {
       ...primaryCardHeader
+    }
+  },
+  darkGrayCardHeader: {
+    color: whiteColor,
+    "&:not($cardHeaderIcon)": {
+      ...darkGrayCardHeader
     }
   },
   roseCardHeader: {
