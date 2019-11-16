@@ -6,6 +6,7 @@ import {
   infoColor,
   roseColor,
   grayColor,
+  blackColor,
   defaultFont
 } from "assets/jss/material-dashboard-react.js";
 
@@ -30,6 +31,9 @@ const tableStyle = theme => ({
   },
   grayTableHeader: {
     color: grayColor[0]
+  },
+  blackTableHeader: {
+    color: blackColor
   },
   table: {
     marginBottom: "0",

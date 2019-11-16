@@ -94,6 +94,12 @@ const buttonStyle = {
       color: grayColor[0]
     }
   },
+  black: {
+    "&,&:focus,&:hover": {
+      backgroundColor: blackColor,
+      color: whiteColor
+    }
+  },
   rose: {
     backgroundColor: roseColor[0],
     boxShadow:
