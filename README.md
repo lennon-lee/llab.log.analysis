@@ -21,6 +21,17 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 You can find the Github Repo here.
 
+## Descriptions
+This application was created based on creativetim's free admin UI.
+This application is an administrator solution for analyzing logs.
+
+## Purpose 
+- Show logs received from search engines.
+- The logs are provided by charts and grids in the Integrated Logs category.
+- In the Analysis category, you can use the default rules and create custom rules.
+- In the Dashboard category, you can create widgets for each rule through the generated analysis rule.
+- Widgets are provided in the form of pie, histogram, grid, map, and line charts.
+
 ## Table of Contents
 
 * [Versions](#versions)
