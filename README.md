@@ -22,8 +22,8 @@ We are very excited to share this dashboard with you and we look forward to hear
 You can find the Github Repo here.
 
 ## Descriptions
-This application was created based on creativetim's free admin UI.
-This application is an administrator solution for analyzing logs.
+- This application was created based on creativetim's free admin UI.
+- This application is an administrator solution for analyzing logs.
 
 ## Purpose 
 - Show logs received from search engines.
